@@ -81,7 +81,7 @@ class _ProductListState extends State<ProductList> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
-                  Text('Counter ${product.quantity}'),
+                  Text('Counte ${product.quantity}'),
                   SizedBox(width: 10),
                   ElevatedButton(
                     onPressed: () {
